@@ -1,0 +1,10 @@
+.appLayout {
+    display: flex;
+  }
+  
+  .mainContent {
+    margin-left: 240px; /* Ajusta esto al ancho de tu Sidebar */
+    padding: 20px;
+    width: calc(100% - 240px); /* Resta el ancho del sidebar */
+    min-height: 100vh; /* Altura mínima para cubrir la altura de la vista */
+  }

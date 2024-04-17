@@ -1,0 +1,45 @@
+.sidebar {
+    width: 240px; /* Ajustar según el ancho deseado */
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #fff; /* Fondo blanco para la barra lateral */
+    color: #333; /* Texto oscuro para mejor legibilidad */
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Sombra ligera para dar profundidad */
+  }
+  
+  .brandName {
+    font-size: 24px; /* Ajustar tamaño según el diseño */
+    font-weight: bold; /* Nombre de la marca en negrita */
+    padding: 20px; /* Añadir padding para espacio alrededor del nombre de la marca */
+    text-align: center; /* Centrar nombre de la marca */
+    background-color: #000; /* Fondo oscuro para el área del nombre de la marca */
+    color: #fff; /* Texto en blanco para el nombre de la marca */
+    margin-bottom: 30px; /* Espacio después del nombre de la marca */
+  }
+  
+  .nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav li {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px; /* Ajustar tamaño de fuente para los elementos de la lista */
+    border-left: 3px solid transparent; /* Borde para el elemento activo (transparente por defecto) */
+    transition: background-color 0.3s, border-left-color 0.3s; /* Transición suave para cambios de estado */
+  }
+  
+  .nav li:hover {
+    background-color: #f4f4f4; /* Color al pasar el mouse sobre el elemento */
+  }
+  
+  .active {
+    background-color: #e0e0e0; /* Color de fondo para el elemento activo */
+    border-left-color: #333; /* Color de borde para el elemento activo */
+  }

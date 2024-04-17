@@ -9,6 +9,8 @@ import Business from './pages/Business.tsx';
 import Business_layout from './layouts/Business_layout.tsx';
 import Login from './pages/Login.tsx';
 import Register from './pages/Register.tsx';
+import ActualDistribution from './pages/ActualDistribution.tsx';
+import AppLayout from './layouts/AppLayout.tsx';
 
 
 const router = createBrowserRouter([
@@ -35,6 +37,10 @@ const router = createBrowserRouter([
   {
     path: "login",
     element: <Login />,
+  },
+  {
+    path: "actual-distribution",
+    element: <AppLayout><ActualDistribution /></AppLayout>,
   },
   {
     path: "register",
